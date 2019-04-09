@@ -6,6 +6,10 @@
   box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
 }
 
+.backgrounds{
+  background: rgb(83, 157, 211);
+}
+
 .headline h2 {
   color: white;
   letter-spacing: 0.05em;

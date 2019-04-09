@@ -1,50 +1,34 @@
----?color=#539DD3
+---
+title: Foobar
+theme: solarized
+revealOptions:
+    transition: 'fade'
+---
+<section data-background="rgb(83, 157, 211)">
 
-@title[Intro to Environments]
+<div class="title_page">
 
-@snap[center text-16]
-### @color[white](Introduction to<br/>Environments)
-@snapend
+<h1>Intro to Environments</h1>
+<img src='logo.png'/>
+</div>
 
-@snap[south]
-@img[span-20](assets/img/logo.png)
-@snapend
-
+<div class="myLogo"></div>
 ---
 
-@snap[west span-40]
-```python
-def hello():
-  return 'hello world!'
-```
-@snapend
-
-@snap[east span-50]
-### This is some code
-@snapend
-
----
-
-@title[Problem]
-
-@snap[north-west]
-What's the problem?
-@snapend
+### Problem
 
 We want our code to be
-@ol[split-screen-list text-08](false)
+
 * __Reproducible:__
   Can someone else run our code?
 
 * __Resolve conflicts:__
   Run projects that have different requirements.
-@olend
+
 e.g.
-@ol[split-screen-list text-08](false)
 * **Project 1** requires scikit-learn 0.20 to use new pipelines, and scikit-learn 0.20 needs numpy > 1.16
 * **Project 2** requires
 numpy < 1.12 to use some renamed functions.
-@olend
 
 ---
 
@@ -110,9 +94,7 @@ Notes: In our metis repo, we have already created the "frozen" environments for 
 
 ---
 
-@snap[north-west]
-#### Creating an environment from "recipe"
-@snapend
+### Creating an environment from "recipe"
 
 ```yaml
 name: metis
@@ -126,14 +108,9 @@ dependencies:
   - seaborn
 ```
 
-@[1](Name of environment)
-@[2-4](Conda-channels to look for package)
-@[5-9](Packages to install)
-
 These are instructions to
 
-@ol[split-screen-list text-08]
-* Make a new environment called `metis` <!-- data-fragment-index="1" -->
+* Make a new environment called `metis`
 * Look for packages in the default locations, and `conda-forge`
 * Install a version of
   * Python 3.6
@@ -141,7 +118,7 @@ These are instructions to
   * Scikit-learn version 0.20
   * The latest version of seaborn
   ...so that all packages are compatible
-@olend
+
 Conda will automatically install packages that these packages depend on.
 
 Notes: Emphasize these are the yaml files in the project folders.
@@ -150,16 +127,13 @@ Notes: Emphasize these are the yaml files in the project folders.
 
 ### Recipe: include everything
 
-@snap[west span-40]
 ```bash
 (metis) some_folder$ conda env export > environment.yml
 ```
 
 Copies _all_ files and __exact__ version numbers to create "recipe" `environment.yml`
 
-@snapend
 
-@snap[east span-55]
 #### Pros
 * Know the versions work together
 * Reproduces the environment exactly
@@ -171,7 +145,7 @@ Copies _all_ files and __exact__ version numbers to create "recipe" `environment
 
 * Biggest pain points: programs with multiple OSes
 * Partial solution: Delete everything except things you explicitly import
-@snapend
+
 ---
 
 ### Recipe: remove version numbers
