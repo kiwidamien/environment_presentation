@@ -2,8 +2,8 @@
 
 @title[Intro to Environments]
 
-@snap[center text-16]
-@color[white](Introduction to<br/>Environments)
+@snap[center text-20]
+## @color[white](Introduction to<br/>Environments)
 @snapend
 
 @snap[south]
