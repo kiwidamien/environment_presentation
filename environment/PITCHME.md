@@ -1,34 +1,33 @@
----
-title: Foobar
-theme: solarized
-revealOptions:
-    transition: 'fade'
----
-<section data-background="rgb(83, 157, 211)">
+---?color=#539DD3
 
-<div class="title_page">
+@title[Intro to Environments]
 
-<h1>Intro to Environments</h1>
-<img src='logo.png'/>
-</div>
+@snap[south]
+@img[span-20](assets/img/logo.png)
+@snapend
 
-<div class="myLogo"></div>
 ---
 
-### Problem
+@title[Problem]
+
+@snap[north-west text-16]
+What's the problem?
+@snapend
 
 We want our code to be
-
+@ol
 * __Reproducible:__
   Can someone else run our code?
 
 * __Resolve conflicts:__
   Run projects that have different requirements.
-
+@olend
 e.g.
+@ol
 * **Project 1** requires scikit-learn 0.20 to use new pipelines, and scikit-learn 0.20 needs numpy > 1.16
 * **Project 2** requires
 numpy < 1.12 to use some renamed functions.
+@olend
 
 ---
 

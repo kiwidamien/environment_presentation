@@ -18,4 +18,3 @@
 @snapend
 
 ---?color=#E58537
-
