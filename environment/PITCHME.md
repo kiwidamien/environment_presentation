@@ -27,6 +27,31 @@ def hello():
 
 ---
 
+@span[west]
+
+```python
+def hello():
+  return 'hello world'
+```
+
+@spanend
+
+@span[east]
+### This is some code
+@spanend
+
+---
+
+```python
+def hello():
+  return 'hello world'
+```
+
+### This is some code
+
+
+---
+
 @title[Problem]
 
 @snap[north-west]
