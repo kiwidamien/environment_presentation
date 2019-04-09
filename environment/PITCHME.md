@@ -118,7 +118,6 @@ dependencies:
 @[5-9](Packages to install)
 
 
-@snap[east]
 These are instructions to
 
 @ol[split-screen-list text-08]
@@ -134,7 +133,6 @@ These are instructions to
 Conda will automatically install packages that these packages depend on.
 
 Notes: Emphasize these are the yaml files in the project folders.
-@snapend
 
 ---
 
