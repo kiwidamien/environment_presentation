@@ -97,9 +97,7 @@ Notes: In our metis repo, we have already created the "frozen" environments for 
 
 ---
 
-@snap[north-west]
 #### Creating an environment from "recipe"
-@snapend
 
 
 ```yaml
