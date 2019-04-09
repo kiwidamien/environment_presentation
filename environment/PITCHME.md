@@ -121,7 +121,7 @@ dependencies:
 These are instructions to
 
 @ol[split-screen-list text-08]
-* Make a new environment called `metis`
+* Make a new environment called `metis` <!-- data-fragment-index="1" -->
 * Look for packages in the default locations, and `conda-forge`
 * Install a version of
   * Python 3.6
