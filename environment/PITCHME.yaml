@@ -18,7 +18,7 @@ theme-override: environment/assets/css/PITCHME.css
 # https://gitpitch.com/docs/settings/logo
 #
 logo : environment/assets/img/logo.png
-logo-postion : top-left
+logo-postion : bottom-right
 
 #
 # Layout Setting

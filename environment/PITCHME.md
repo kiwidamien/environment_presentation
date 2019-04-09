@@ -14,7 +14,7 @@
 
 @title[Problem]
 
-@snap[north-west text-16]
+@snap[north-west]
 What's the problem?
 @snapend
 
