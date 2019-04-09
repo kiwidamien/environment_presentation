@@ -97,8 +97,11 @@ Notes: In our metis repo, we have already created the "frozen" environments for 
 
 ---
 
-### Creating an environment from "recipe"
+@snap[north-west]
+#### Creating an environment from "recipe"
+@snapend
 
+@snap[west span-40]
 ```yaml
 name: metis
 channels:
@@ -114,9 +117,11 @@ dependencies:
 @[1](Name of environment)
 @[2-4](Conda-channels to look for package)
 @[5-9](Packages to install)
+@snapend
 
+@snap[east]
 These are instructions to
-
+@ol[split-screen-list text-08]
 * Make a new environment called `metis`
 * Look for packages in the default locations, and `conda-forge`
 * Install a version of
@@ -125,10 +130,11 @@ These are instructions to
   * Scikit-learn version 0.20
   * The latest version of seaborn
   ...so that all packages are compatible
-
+@olend
 Conda will automatically install packages that these packages depend on.
 
 Notes: Emphasize these are the yaml files in the project folders.
+@snapend
 
 ---
 
