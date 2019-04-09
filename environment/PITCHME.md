@@ -27,18 +27,18 @@ def hello():
 
 ---
 
-@span[west]
+@snap[west]
 
 ```python
 def hello():
   return 'hello world'
 ```
 
-@spanend
+@snapend
 
-@span[east]
+@snap[east]
 ### This is some code
-@spanend
+@snapend
 
 ---
 
