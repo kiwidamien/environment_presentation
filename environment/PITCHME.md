@@ -101,7 +101,6 @@ Notes: In our metis repo, we have already created the "frozen" environments for 
 #### Creating an environment from "recipe"
 @snapend
 
-@snap[west span-40]
 
 ```yaml
 name: metis
@@ -117,7 +116,7 @@ dependencies:
 @[1](Name of environment)
 @[2-4](Conda-channels to look for package)
 @[5-9](Packages to install)
-@snapend
+
 
 @snap[east]
 These are instructions to
