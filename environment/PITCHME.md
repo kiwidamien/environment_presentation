@@ -111,6 +111,7 @@ dependencies:
   - scikit-learn=0.20
   - seaborn
 ```
+
 @[1](Name of environment)
 @[2-4](Conda-channels to look for package)
 @[5-9](Packages to install)
