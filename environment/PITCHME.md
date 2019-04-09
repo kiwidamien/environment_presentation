@@ -13,10 +13,7 @@
 ---
 
 @snap[west span-40]
-```python
-def hello():
-  return 'hello world!'
-```
+@code[python zoom-07](src/hello.py)
 @snapend
 
 @snap[east span-50]
