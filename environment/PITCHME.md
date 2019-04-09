@@ -61,6 +61,34 @@ def hello():
 
 ---
 
+### More code
+
+```python
+def fib(n):
+  if n < 2:
+    return n
+  return fib(n-1) + fib(n-2)
+```
+
+@snap[south-west text-08]
+##### Pros
+@ol[](false)
+* Simple solution!
+* Uses recursion
+@olend
+@snapend
+
+@snap[south-east text-08]
+##### Cons
+@ol[](false)
+* Uses recursion
+* Slowwwwww....!
+@olend
+@snapend
+
+
+---
+
 @title[Problem]
 
 @snap[north-west]
