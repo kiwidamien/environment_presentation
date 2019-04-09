@@ -2,7 +2,7 @@
 
 @title[Intro to Environments]
 
-@snap[center white text-16 span-50]
+@snap[center white text-16]
 Introduction to<br/>Environments
 @snapend
 
