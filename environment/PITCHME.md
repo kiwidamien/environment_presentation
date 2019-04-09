@@ -137,13 +137,16 @@ Notes: Emphasize these are the yaml files in the project folders.
 
 ### Recipe: include everything
 
+@snap[west span-40]
 ```bash
 (metis) some_folder$ conda env export > environment.yml
 ```
 
 Copies _all_ files and __exact__ version numbers to create "recipe" `environment.yml`
 
+@snapend
 
+@snap[east]
 #### Pros
 * Know the versions work together
 * Reproduces the environment exactly
@@ -155,7 +158,7 @@ Copies _all_ files and __exact__ version numbers to create "recipe" `environment
 
 * Biggest pain points: programs with multiple OSes
 * Partial solution: Delete everything except things you explicitly import
-
+@snapend
 ---
 
 ### Recipe: remove version numbers
