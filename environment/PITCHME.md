@@ -52,6 +52,15 @@ def hello():
 
 ---
 
+
+## Regular Slide Content
+
+@snap[south message-box]
+@css[message](Snapped CSS Shortcut)
+@snapend
+
+---
+
 @title[Problem]
 
 @snap[north-west]

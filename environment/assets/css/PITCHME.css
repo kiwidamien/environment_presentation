@@ -58,3 +58,10 @@
     width:50%;
     font-size:75%;
 }
+
+.message-box {
+  width: 80%;
+  border-radius: 20px;
+  background-color: black;
+  padding: 20px 20px !important;
+}
