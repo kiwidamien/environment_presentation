@@ -111,6 +111,10 @@ dependencies:
   - seaborn
 ```
 
+@[1](Name of environment)
+@[2-4](Conda-channels to look for package)
+@[5-9](Packages to install)
+
 These are instructions to
 
 * Make a new environment called `metis`
