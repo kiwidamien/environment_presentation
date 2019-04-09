@@ -102,6 +102,7 @@ Notes: In our metis repo, we have already created the "frozen" environments for 
 @snapend
 
 @snap[west span-40]
+
 ```yaml
 name: metis
 channels:
@@ -113,7 +114,6 @@ dependencies:
   - scikit-learn=0.20
   - seaborn
 ```
-
 @[1](Name of environment)
 @[2-4](Conda-channels to look for package)
 @[5-9](Packages to install)
@@ -121,6 +121,7 @@ dependencies:
 
 @snap[east]
 These are instructions to
+
 @ol[split-screen-list text-08]
 * Make a new environment called `metis`
 * Look for packages in the default locations, and `conda-forge`
