@@ -12,18 +12,18 @@
 
 ---
 
-@snap[west span-40]
+<div class="left">
 
 ```python
 def hello():
   return 'hello world'
 ```
 
-@snapend
+</div>
 
-@snap[east span-50]
+<div class="right">
 ### This is some code
-@snapend
+</div>
 
 ---
 
