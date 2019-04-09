@@ -2,6 +2,10 @@
 
 @title[Intro to Environments]
 
+@snap[center white text-16 span-50]
+Introduction to<br/>Environments
+@snapend
+
 @snap[south]
 @img[span-20](assets/img/logo.png)
 @snapend
@@ -15,7 +19,7 @@ What's the problem?
 @snapend
 
 We want our code to be
-@ol
+@ol[split-screen-list text-08](false)
 * __Reproducible:__
   Can someone else run our code?
 
@@ -23,7 +27,7 @@ We want our code to be
   Run projects that have different requirements.
 @olend
 e.g.
-@ol
+@ol[split-screen-list text-08](false)
 * **Project 1** requires scikit-learn 0.20 to use new pipelines, and scikit-learn 0.20 needs numpy > 1.16
 * **Project 2** requires
 numpy < 1.12 to use some renamed functions.
