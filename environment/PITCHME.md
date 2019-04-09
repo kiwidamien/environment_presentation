@@ -146,7 +146,7 @@ Copies _all_ files and __exact__ version numbers to create "recipe" `environment
 
 @snapend
 
-@snap[east]
+@snap[east span-55]
 #### Pros
 * Know the versions work together
 * Reproduces the environment exactly
