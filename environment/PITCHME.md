@@ -62,13 +62,14 @@ def hello():
 ---
 
 ### More code
-
+@snap[north]
 ```python
 def fib(n):
   if n < 2:
     return n
   return fib(n-1) + fib(n-2)
 ```
+@snapend
 
 @snap[south-west text-08]
 ##### Pros
