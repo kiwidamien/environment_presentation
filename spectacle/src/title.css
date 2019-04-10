@@ -1,0 +1,48 @@
+div.heading{
+  width: 160%;
+  margin-left: -30%;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+div.metis_name{
+  color: white;
+  bottom: 15%;
+  width: 100%;
+  left: 0%;
+  font-size: 32pt;
+  font-weight: bold;
+  font: "Arial-BoldMT", "Arial";
+  letter-spacing: 0.3em;
+  position: absolute;
+}
+
+
+.title_container{
+  width: 170%;
+  margin-left: -40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_text{
+  border-top: 5px solid rgb(239,57,105);
+  border-bottom: 5px solid rgb(239,57,105);
+  width:100%;
+  margin-left: 10%;
+  text-align: left;
+  font: 'Proxima Nova';
+}
+
+.title_text>.line1{
+  font-size: 150px;
+}
+
+.title_text>.line2{
+  color: rgb(239,57,105);
+  font-size: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
