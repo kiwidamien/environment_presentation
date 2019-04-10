@@ -16,6 +16,9 @@
 @snap[east span-50]
 ![](assets/img/presentation.png)
 @snapend
++++?color=#00FFFF
+
+This is a vertical slide
 
 ---?color=#E58537
 
