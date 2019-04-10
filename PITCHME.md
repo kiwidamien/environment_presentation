@@ -19,4 +19,17 @@
 
 ---?color=#E58537
 
-Hello cliff
+```python
+import unittest
+
+def MyTester(unittest.TestCase):
+  def test_if_explodes(self):
+    ....
+
+if __name__ == '__main__':
+  unittest.main()
+```
+
+@[1](Import the unit test library)
+@[3-6](Define the unit test)
+@[7-8](Run the tests (if not imported))
